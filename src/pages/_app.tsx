@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="/img/icon-.521.png" />
         <link rel="apple-touch-icon icon" href="/img/icon-.521.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple projeto starter to work with TypeScript, React, NextJS and Styled Components"
