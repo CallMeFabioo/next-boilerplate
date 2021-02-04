@@ -1,20 +1,17 @@
 import * as S from './styles';
 
+export type MainProps = {
+  title?: string;
+  description?: string;
+};
+
 const Main = ({
-  title = 'Next Boilerplate',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
-}) => (
+  title = 'Next.js Boilerplate',
+  description = 'Boilerplate utilizando TypeScript, React, NextJS e Styled Components'
+}: MainProps) => (
   <S.Wrapper>
-    <S.Logo
-      src="/images/logo.svg"
-      alt="Imagem de um átomo e Next Boilerplate escrito ao lado."
-    />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
-    <S.Illustration
-      src="/images/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para tela com código"
-    />
   </S.Wrapper>
 );
 
