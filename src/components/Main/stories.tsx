@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react';
 
-import Main, { MainProps } from '.';
+import { Main, MainProps } from '.';
 
 export default {
   title: 'Main',

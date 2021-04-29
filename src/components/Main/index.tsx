@@ -5,7 +5,7 @@ export type MainProps = {
   description?: string;
 };
 
-const Main = ({
+export const Main = ({
   title = 'Next.js Boilerplate',
   description = 'Boilerplate utilizando TypeScript, React, NextJS e Styled Components'
 }: MainProps) => (
@@ -14,5 +14,3 @@ const Main = ({
     <S.Description>{description}</S.Description>
   </S.Wrapper>
 );
-
-export default Main;
