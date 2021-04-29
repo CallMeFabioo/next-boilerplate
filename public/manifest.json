@@ -6,5 +6,5 @@
   "background_color": "#06092b",
   "start_url": "/",
   "display": "fullscreen",
-  "description": "Boilerplate utilizando TypeScript, React, NextJS e Styled Components"
+  "description": "A simple project starter to work with TypeScript, React, Next.js and Styled Components"
 }
